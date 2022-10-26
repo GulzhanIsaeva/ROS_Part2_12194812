@@ -21,13 +21,13 @@ bash ./install_ros2_foxy.sh
 
 # 3.2 Install Dependent ROS2 Packages
 
-## Install Gazebo11
+## 1 Install Gazebo11
 
 ```
 sudo apt-get install ros-foxy-gazebo-*
 ```
 
-## Install Cartographer
+## 2 Install Cartographer
 
 ```
 sudo apt install ros-foxy-cartographer
@@ -37,9 +37,7 @@ sudo apt install ros-foxy-cartographer-ros
 ![image](https://user-images.githubusercontent.com/90166739/197956208-2a06a126-ffbf-485b-8b1c-18ab72aff11b.png)
 
 
-## Install Navigation2
-
-![image](https://user-images.githubusercontent.com/90166739/197956456-9217e0a8-4772-40eb-8f38-c2cf118980c4.png)
+## 3 Install Navigation2
 
 
 ```
@@ -47,7 +45,7 @@ sudo apt install ros-foxy-navigation2
 sudo apt install ros-foxy-nav2-bringup
 ```
 
-# Install TurtleBot3 Packages
+# 3.3 Install TurtleBot3 Packages
 
 ## Install TurtleBot3 via Debian Packages
 
